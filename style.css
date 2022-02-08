@@ -376,6 +376,9 @@ ul{
 .skills-content .right .mongodb::before{
     width: 75%;
 }
+.skills-content .right .reactjs::before{
+    width: 70%;
+}
 
 /* teams section styling */
 .teams .title::after{

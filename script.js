@@ -38,15 +38,15 @@ $(document).ready(function () {
     $(".menu-btn i").toggleClass("active");
   });
   var typed = new Typed(".typing", {
-    strings: ["Frontend Web Developer", "Backend Web Developer", "Freelancer"],
-    typeSpeed: 100,
-    backSpeed: 60,
+    strings: ["Frontend Web Developer", "Backend Web Developer"],
+    typeSpeed: 80,
+    backSpeed: 50,
     loop: true,
   });
   var typed = new Typed(".typing-2", {
-    strings: ["Frontend Web Developer", "Backend Web Developer", "Freelancer"],
-    typeSpeed: 100,
-    backSpeed: 60,
+    strings: ["Frontend Web Developer", "Backend Web Developer"],
+    typeSpeed: 80,
+    backSpeed: 50,
     loop: true,
   });
   $(".carousel").owlCarousel({
